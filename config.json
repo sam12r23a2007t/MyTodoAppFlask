@@ -1,0 +1,10 @@
+{
+	"params":
+	{
+		"website_name": "MyTodoList",
+		"heading": "Add a Todo",
+		"heading2": "Your Todos",
+		"editheading": "Edit Todo",
+		"no_of_todo": 5
+	}
+}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}View_{{todo.title}}{% endblock %}
+{% block body %}
+<div class="container">
+<div class="jumbotron m-4">
+  <h1 class="display-4">{{todo.title}}</h1>
+  <div><p class="lead sameline">{{todo.descr}}</p></div>
+  <hr class="my-4">
+  <p>{{todo.date}}</p>
+  <a href="/operation/{{todo.sno}}" class="btn btn-primary">Edit</a>
+  <a href="/delete/{{todo.sno}}" class="btn btn-primary">Delete</a>
+</div>
+</div>
+{% endblock %}
